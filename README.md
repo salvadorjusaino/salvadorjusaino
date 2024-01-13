@@ -1,5 +1,9 @@
 ### Hi there 👋
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/salvadorjusaino/salvadorjusaino/main/hi.png" />
+</p>
+
 <!--
 **salvadorjusaino/salvadorjusaino** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
