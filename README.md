@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 <p align="left">
-  <img src="https://raw.githubusercontent.com/salvadorjusaino/salvadorjusaino/main/hi.png" style="max-width: 250px;" />
+  <img src="https://raw.githubusercontent.com/salvadorjusaino/salvadorjusaino/main/hi.png" width="250px" />
 </p>
 
 <!--
