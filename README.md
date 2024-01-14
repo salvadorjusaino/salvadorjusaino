@@ -23,9 +23,9 @@ Here are some ideas to get you started:
 const salvadorDev = {    
     askMeAbout: ["web dev", "tech"],
     technologies:{
-        backEnd: ["nodejs", "express"],
+        backEnd: ["nodejs", "php"],
         code: ["JavaScript", "Php", "React", "Angular", "HTML", "CSS"],
-        tools: ["Node", "StoryBook", "Styled-Components", "Tailwind CSS" ],       
+        tools: ["Node", "Styled-Components", "Tailwind CSS" ],       
         misc: ["Firebase"],
         cms: ["Shopify", "Wordpress", "Custom"]
     }
