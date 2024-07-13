@@ -1,190 +1,178 @@
 {
-	"symbols.hidesExplorerArrows": false,
-	"workbench.iconTheme": "moxer-icons",
-	"workbench.colorCustomizations": {
-		"tab.activeBorder": "#0077b6",
-		"tab.unfocusedActiveBorder": "#000000",
-		"tab.activeBackground": "#0077b6",
-		"tab.hoverBackground": "#348cff"
-	},
-	"highlight.regexes": {
-		"((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
-			"filterFileRegex": ".*(?<!CHANGELOG.md)$",
-			"decorations": [
-				{
-					"overviewRulerColor": "#ffcc00",
-					"backgroundColor": "#ffcc00",
-					"color": "#1f1f1f",
-					"fontWeight": "bold"
-				},
-				{
-					"backgroundColor": "#ffcc00",
-					"color": "#1f1f1f"
-				}
-			]
-		},
-		"((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
-			"filterFileRegex": ".*(?<!CHANGELOG.md)$",
-			"decorations": [
-				{
-					"overviewRulerColor": "#cc0000",
-					"backgroundColor": "#cc0000",
-					"color": "#1f1f1f",
-					"fontWeight": "bold"
-				},
-				{
-					"backgroundColor": "#cc0000",
-					"color": "#1f1f1f"
-				}
-			]
-		},
-		"((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:REVIEW|OPTIMIZE|TSC)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
-			"filterFileRegex": ".*(?<!CHANGELOG.md)$",
-			"decorations": [
-				{
-					"overviewRulerColor": "#00ccff",
-					"backgroundColor": "#00ccff",
-					"color": "#1f1f1f",
-					"fontWeight": "bold"
-				},
-				{
-					"backgroundColor": "#00ccff",
-					"color": "#1f1f1f"
-				}
-			]
-		},
-		"((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
-			"filterFileRegex": ".*(?<!CHANGELOG.md)$",
-			"decorations": [
-				{
-					"overviewRulerColor": "#cc00cc",
-					"backgroundColor": "#cc00cc",
-					"color": "#1f1f1f",
-					"fontWeight": "bold"
-				},
-				{
-					"backgroundColor": "#cc00cc",
-					"color": "#1f1f1f"
-				}
-			]
-		}
-	},
-	"[css]": {
-		"editor.defaultFormatter": "aeschli.vscode-css-formatter"
-	},
-	"security.workspace.trust.untrustedFiles": "open",
-	"[html]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[javascript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[typescript]": {
-		//"editor.defaultFormatter": "vscode.typescript-language-features"
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[json]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[scss]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[yaml]": {
-		"editor.defaultFormatter": "redhat.vscode-yaml"
-	},
-	"editor.accessibilitySupport": "off",
-	"editor.tokenColorCustomizations": {
-		//"comments": "#ffe600"
-	},
-	"terminal.integrated.env.osx": {
-		"FIG_NEW_SESSION": "1"
-	},
-	"git.enableSmartCommit": true,
-	"editor.fontFamily": "Cascadia Code",
-	"editor.fontLigatures": true,
-	"editor.lineHeight": 19,
-	"scm.inputFontFamily": "Geist Mono",
-	"terminal.integrated.fontFamily": "MesloLGS NF",
-	"terminal.integrated.cursorBlinking": true,
-	"chat.editor.fontFamily": "Geist Mono",
-	"debug.console.fontFamily": "Geist Mono",
-	"editor.codeLensFontFamily": "Geist Mono",
-	"notebook.output.fontFamily": "Geist Mono",
-	"markdown.preview.fontFamily": "Geist Mono",
-	"editor.inlayHints.fontFamily": "Geist Mono",
-	"redhat.telemetry.enabled": true,
-	"workbench.colorTheme": "One Dark Pro Mix",
-	"editor.fontSize": 12,
-	"[jsonc]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"typescript.updateImportsOnFileMove.enabled": "always",
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"[typescriptreact]": {
-		"editor.defaultFormatter": "vscode.typescript-language-features"
-	},
-	"githubPullRequests.pullBranch": "never",
-	"githubPullRequests.fileListLayout": "flat",
-	"screencastMode.fontSize": 20,
-	"git.confirmSync": false,
-	"files.associations": {
-		"*.json": "jsonc"
-	},
-	"auto-rename-tag.activationOnLanguage": [
-		"html",
-		"xml",
-		"php",
-		"javascript"
-	],
-	"editor.minimap.enabled": true,
-	"editor.minimap.showSlider": "always",
-	"editor.codeActionsOnSave": {},
-	"editor.wordWrap": "on",
-	"editor.formatOnSave": false,
-	"editor.formatOnPaste": true,
-	"editor.rulers": [],
-	"editor.smoothScrolling": true,
-	"editor.formatOnType": true,
-	"editor.snippetSuggestions": "top",
-	"editor.colorDecoratorsLimit": 100,
-	"editor.scrollBeyondLastLine": false,
-	"activitusbar.alignment": "Right",
-	"activitusbar.toggleSidebar": true,
-	"search.actionsPosition": "auto",
-	"search.decorations.colors": false,
-	"todo-tree.highlights.defaultHighlight": {
-		"type": "text-and-comment",
-		"gutterIcon": false
-	},
-	"todo-tree.highlights.customHighlight": {
-		"TODO": {
-			"type": "text-and-comment",
-			"foreground": "#000000",
-			"background": "#ffc107",
-			"iconColour": "#000000"
-		},
-		"NOTE": {
-			//"type": "text-and-comment",
-			"icon": "note",
-			"foreground": "#ffffff",
-			"background": "#808080",
-			"iconColour": "#808080"
-		}
-	},
-	"yaml.schemas": {
-		"file:///Users/salvador.jusaino/.vscode/extensions/atlassian.atlascode-3.0.9/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-	},
-	"editor.linkedEditing": true,
-	"editor.matchBrackets": "never",
-	"editor.bracketPairColorization.independentColorPoolPerBracketType": false,
-	"editor.bracketPairColorization.enabled": true,
-	"editor.guides.bracketPairs": true,
-	"indentRainbow.indicatorStyle": "light",
-	"indentRainbow.lightIndicatorStyleLineWidth": 1,
-	"indentRainbow.colorOnWhiteSpaceOnly": true,
-	"editor.guides.indentation": false,
-	"indenticator.width": 1,
-	"indenticator.color.dark": "rgba(255,255,255,0)",
-	"indenticator.inner.color.light": "#999",
-	"breadcrumbs.enabled": false
+  "workbench.colorTheme": "One Dark Pro Mix",
+  "workbench.iconTheme": "symbols",
+  "workbench.colorCustomizations": {
+    "tab.activeBorder": "#0077b6",
+    "tab.unfocusedActiveBorder": "#000000",
+    "tab.activeBackground": "#0077b6",
+    "tab.hoverBackground": "#348cff"
+  },
+  "highlight.regexes": {
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#ffcc00",
+          "backgroundColor": "#ffcc00",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#ffcc00",
+          "color": "#1f1f1f"
+        }
+      ]
+    },
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#cc0000",
+          "backgroundColor": "#cc0000",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#cc0000",
+          "color": "#1f1f1f"
+        }
+      ]
+    },
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:REVIEW|OPTIMIZE|TSC)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#00ccff",
+          "backgroundColor": "#00ccff",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#00ccff",
+          "color": "#1f1f1f"
+        }
+      ]
+    },
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#cc00cc",
+          "backgroundColor": "#cc00cc",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#cc00cc",
+          "color": "#1f1f1f"
+        }
+      ]
+    }
+  },
+  "todo-tree.highlights.defaultHighlight": {
+    "type": "text-and-comment",
+    "gutterIcon": false
+  },
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "type": "text-and-comment",
+      "foreground": "#000000",
+      "background": "#ffc107",
+      "iconColour": "#000000"
+    },
+    "NOTE": {
+      //"type": "text-and-comment",
+      "icon": "note",
+      "foreground": "#ffffff",
+      "background": "#808080",
+      "iconColour": "#808080"
+    }
+  },
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "terminal.integrated.env.windows": {},
+  "git.enableSmartCommit": true,
+  "yaml.schemas": {
+    "file:///c%3A/Users/PC/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+  "auto-rename-tag.activationOnLanguage": ["html", "xml", "php", "javascript"],
+  "redhat.telemetry.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "editor.fontFamily": "Geist Mono",
+  "editor.fontWeight": "normal",
+  "editor.fontSize": 12,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 19,
+  "editor.wordWrap": "on",
+  "scm.inputFontFamily": "Geist Mono",
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.cursorBlinking": true,
+  "chat.editor.fontFamily": "Geist Mono",
+  "debug.console.fontFamily": "Geist Mono",
+  "editor.codeLensFontFamily": "Geist Mono",
+  "notebook.output.fontFamily": "Geist Mono",
+  "markdown.preview.fontFamily": "Geist Mono",
+  "editor.inlayHints.fontFamily": "Geist Mono",
+  "editor.scrollbar.vertical": "auto",
+  "editor.guides.indentation": false,
+  "editor.linkedEditing": true,
+  "editor.matchBrackets": "never",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {},
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": true,
+  "editor.rulers": [],
+  "editor.smoothScrolling": true,
+  "editor.formatOnType": true,
+  "editor.snippetSuggestions": "top",
+  "editor.colorDecoratorsLimit": 100,
+  "editor.scrollBeyondLastLine": false,
+  "githubPullRequests.pullBranch": "never",
+  "githubPullRequests.fileListLayout": "flat",
+  "screencastMode.fontSize": 20,
+  "git.confirmSync": false,
+  "indentRainbow.indicatorStyle": "light",
+  "indentRainbow.lightIndicatorStyleLineWidth": 1,
+  "indentRainbow.colorOnWhiteSpaceOnly": false,
+  "editor.guides.bracketPairs": true,
+  "breadcrumbs.enabled": false,
+  "activitusbar.alignment": "Right",
+  "activitusbar.toggleSidebar": true,
+  "indenticator.width": 1,
+  "indenticator.color.dark": "rgba(255,255,255,0)",
+  "indenticator.inner.color.light": "#999999",
+  "symbols.hidesExplorerArrows": false,
+  "atlascode.jira.enabled": false
 }
